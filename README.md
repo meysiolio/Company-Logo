@@ -6,6 +6,7 @@ A newly opened multinational brand has decided to base their company logo on the
 For example, according to the conditions described above,  
 
 ***<span style="color:blue">some *blue* text</span>*** would have it's logo with the letters .
+<p style='color:red'>This is some red text.</p>
 
 Input Format
 
