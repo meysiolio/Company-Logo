@@ -5,34 +5,33 @@ A newly opened multinational brand has decided to base their company logo on the
 * If the occurrence count is the same, sort the characters in alphabetical order.  
 For example, according to the conditions described above,  
 
-***<span style="color:blue">some *blue* text</span>*** would have it's logo with the letters .
-<p style='color:red'>This is some red text.</p>
+***GOOGLE*** would have it's logo with the letters ***G,O,E***.  
 
-Input Format
+**Input Format**
 
-A single line of input containing the string .
+A single line of input containing the string ***S***.  
 
-Constraints
+**Output Format**
 
- has at least  distinct characters
-Output Format
+Print the three most common characters along with their occurrence count each on a separate line.  
+Sort output in descending order of occurrence count.  
+If the occurrence count is the same, sort the characters in alphabetical order.  
 
-Print the three most common characters along with their occurrence count each on a separate line.
-Sort output in descending order of occurrence count.
-If the occurrence count is the same, sort the characters in alphabetical order.
-
-Sample Input 0
-
+**Sample Input**
+```
 aabbbccde
-Sample Output 0
+```
 
+**Sample Output**
+```
 b 3
 a 2
 c 2
-Explanation 0
+```
+**Explanation**
 
+***aabbbccde***
+Here, b occurs **3** times. It is printed first.  
+Both a and c occur **2** times. So, a is printed in the second line and c in the third line because a comes before c in the alphabet.  
 
-Here, b occurs  times. It is printed first.
-Both a and c occur  times. So, a is printed in the second line and c in the third line because a comes before c in the alphabet.
-
-Note: The string  has at least  distinct characters.
+**Note:** The string ***S*** has at least **3** distinct characters.  
